@@ -1,0 +1,125 @@
+
+a:link {
+        color: #FF0000; 
+        text-decoration: none;
+}
+a:visited {
+        color: #001eff;
+}
+a:hover {
+        color: #00ff51; 
+        text-decoration: underline;
+}
+.enlace-youtube {
+        display: block;
+        width: max-content;
+        margin: 0 auto;
+}
+
+
+#main{
+display: flex;
+flex-flow: column;
+
+
+
+}
+
+
+#videaso{
+border-style: dotted;
+display: flex;
+justify-content: center;
+border-width: 16px;
+
+}
+
+
+body{
+
+background-image: url(img/fondopantalla.png.jpg);
+
+background-size:auto;
+background-position: 50%;
+background-position: center 200px;
+border-radius: 15px;
+
+}
+
+#parrafo::first-line{
+
+color:rgb(53, 18, 169);
+background-color: rgb(189, 15, 9);
+
+}
+#maswel{
+
+
+font-size: medium;
+letter-spacing: 10px;
+color: darkblue;
+
+}
+
+#head{
+display: flex;
+justify-content: center;
+flex-flow: row;
+
+}
+
+
+.contenedor-imagenes {
+  display: flex;           /* Coloca las imágenes en línea */
+  justify-content: center; /* Centra el grupo de imágenes horizontalmente */
+  gap: 20px;                /* Espacio entre imágenes (opcional) */
+}
+
+.contenedor-imagenes img {
+  max-width: 200px; /* Tamaño opcional para las imágenes */
+  height: auto;
+}
+
+
+
+
+#castor{
+
+height: 500px;
+width: 200px;
+
+
+}
+
+#perritos{
+
+height: 500px;
+width: 200px;
+border-style: solid;
+border-width: 20px;
+border-color: #001eff;
+
+
+}
+
+
+
+#pepeC {
+background-color: darkgoldenrod;
+text-align: left;
+letter-spacing: 10px;
+text-indent: 20%;
+color: rgb(17, 217, 64);
+font-size: larger;
+
+}
+
+h2{
+background-color: aqua;
+text-align: right;
+letter-spacing:9px ;
+text-align: 50%;
+text-indent: 10%;
+color: red;
+font-size: 80%;
+}
